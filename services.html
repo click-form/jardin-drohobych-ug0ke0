@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - Кав'ярня-кондитерська Jardin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Jardin</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="menu_page_title">Наше меню</h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="menu-container">
+                    <div class="menu-category">
+                        <h2 data-i18n="category_drinks">Напої</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <span class="item-name" data-i18n="item_espresso">Еспресо</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">35 грн</span>
+                            </li>
+                            <li class="menu-item">
+                                <span class="item-name" data-i18n="item_cappuccino">Капучино</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">55 грн</span>
+                            </li>
+                            <li class="menu-item">
+                                <span class="item-name" data-i18n="item_latte">Лате</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">60 грн</span>
+                            </li>
+                            <li class="menu-item">
+                                <span class="item-name" data-i18n="item_americano">Американо</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">40 грн</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-category">
+                        <h2 data-i18n="category_desserts">Десерти</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <span class="item-name" data-i18n="item_jardin_dessert">Фірмовий десерт Jardin</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">110 грн</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <h3 data-i18n="brand_name">Кав'ярня-кондитерська Jardin</h3>
+                <p data-i18n="footer_address">вулиця Трускавецька, 1, Дрогобич, Львівська область, Україна</p>
+            </div>
+            <div>
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p data-i18n="hours_text">Пн-Сб: 08:00 - 21:00, Нд: 10:00 - 21:00</p>
+            </div>
+            <div>
+                <h4 data-i18n="footer_socials">Соціальні мережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/jardin_cake/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com/jardinkava/" target="_blank" rel="noopener">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; Jardin, Дрогобич. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
